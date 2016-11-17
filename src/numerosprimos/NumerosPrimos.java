@@ -74,8 +74,7 @@ public class NumerosPrimos {
         do {
             JOptionPane.showMessageDialog(null, "ingrese numero para obtener numeros de digitos mayor que 0 y menor que 5");
             numDigitos = Integer.parseInt(JOptionPane.showInputDialog("Introducir numero de digitos para calcular los numeros primos"));
-        } while (numDigitos <= 0 || numDigitos > 5);
-
+        } while (numDigitos <= 0 || numDigitos > 5); //introducto la condicion que el valor este entre 0 y 5 digitos
         return numDigitos;
     }
 }
