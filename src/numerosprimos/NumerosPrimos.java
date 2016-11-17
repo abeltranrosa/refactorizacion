@@ -70,7 +70,7 @@ public class NumerosPrimos {
     }
 
     public static int pedirDigitos() {
-        int numDigitos; // defino la variable 
+        int numDigitos; // defino la variable// 
         do {
             JOptionPane.showMessageDialog(null, "ingrese numero para obtener numeros de digitos mayor que 0 y menor que 5");
             numDigitos = Integer.parseInt(JOptionPane.showInputDialog("Introducir numero de digitos para calcular los numeros primos"));
